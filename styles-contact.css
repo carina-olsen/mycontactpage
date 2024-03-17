@@ -146,7 +146,7 @@ html,
 body {
 	height: 100%;
 	width: 100%;
-	padding: 0 0 10% 0;
+	padding: 0 0 6% 0; /*this effected bottom margin (and worked)*/
 	margin: 0;
 
 	/*----------background image---------------------*/
@@ -160,7 +160,7 @@ body {
 
 .center {
 	width: 700px;
-	padding: 2%;
+	padding: 10%;
 	margin: 80px auto 80px auto;
 	/*possibly problamatic???*/
 	background: rgba(20, 20, 20, 0.90);
@@ -186,13 +186,14 @@ h1 {
 	font-size: 4.5em;
 	margin: 0px auto 8px auto;
 	color: #fff;
+	letter-spacing: .05em;
 }
 
 h2 {
 	font-family: "roca", sans-serif;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	line-height: 1.4;
 	color: #dcdcdc;
 	padding: 0px 0px;
@@ -212,11 +213,11 @@ p {
 
 nav {
 	font-family: "sirenia", sans-serif;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	width: 80%;
 	margin: 0 auto;
 	text-align: auto;
-	margin-top: 2em
+	margin-top: 1em
 }
 
 
@@ -230,14 +231,14 @@ nav a {
 }
 
 a {
-	color: #6a6a6a;
+	color: #6e6e6e;
 	text-decoration: none;
 	font-weight: bold;
 }
 
 a:hover {
-	color: rgb(255, 255, 255);
-	background: black;
+	color: rgb(0, 0, 0);
+	background: rgb(255, 255, 255);
 
 	/*-------start to the hover/ zoom effect-------*/
 	transition: transform 0.3s;
@@ -250,5 +251,5 @@ a:hover {
 
 	/*------end to the hover/ zoom effect------*/
 	letter-spacing: .15em;
-	border-radius: 10px 0px 10px 0px;
+	border-radius: 7px 0px 7px 0px;
 }
